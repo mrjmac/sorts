@@ -6,17 +6,14 @@ public class dropsort {
         //Read in numbers
         Scanner read = new Scanner(System.in);
         System.out.print("Enter nums in format x x x x (ex: 1 2 3 4 5) :: ");
-        String nums = read.nextLine();
-        System.out.println("");
+        String nums[] = read.nextLine().split(" ");
+        System.out.println();
 
-        //add numbers to a new scanner with object String to let me iterate through
+        //convert numbers into an integer arraylist
         ArrayList<Integer> numbers = new ArrayList<Integer>();
-        Scanner string = new Scanner(nums);
-
-        //add numbers from string to an arrayList
-        while(string.hasNext())
+        for (String a : nums)
         {
-            numbers.add(string.nextInt());
+            numbers.add(Integer.parseInt(a));
         }
 
         //perform sort
@@ -36,7 +33,6 @@ public class dropsort {
 
         //print results and close scanners
         System.out.println(numbers);
-        string.close();
         read.close();
     }
 }
