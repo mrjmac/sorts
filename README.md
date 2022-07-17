@@ -32,3 +32,11 @@ Very mediocre, O(n) in best case and O(n^2) on the worst and average cases
 # insertionsort
 
 Same as bubblesort
+
+# mergesort
+
+Great time complexity, O(n*log n) in all cases
+
+#countingsort
+
+Very cool sort. The time complexity is O[n + k], where k is the range of values in the array, in all cases. Might take a minute to wrap your head around it but very cool once you do.
