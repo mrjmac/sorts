@@ -37,6 +37,6 @@ Same as bubblesort
 
 Great time complexity, O(n*log n) in all cases
 
-#countingsort
+# countingsort
 
 Very cool sort. The time complexity is O[n + k], where k is the range of values in the array, in all cases. Might take a minute to wrap your head around it but very cool once you do.
