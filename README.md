@@ -50,3 +50,13 @@ Very cool sort. The time complexity is O[n + k], where k is the range of values 
 Overhyped, honestly not that complicated when you think about it.
 
 O(n^2) worse case and O(n* log n) in the average and best case. A little bit faster than mergesort on average, however if you pick a bad pivot then it will be slower. 
+
+# radixsort
+
+Whoever thought of this is genius.
+
+Just a counting sort on all digits of every number which means saves time as each counting sort only ever has to go up to 9 at max.
+
+O(d(n+k)) where K is the greatest number in the digits spot and d is the number of digits. Not sure if I'm right on this.
+
+
