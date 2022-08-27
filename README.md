@@ -59,4 +59,6 @@ Just a counting sort on all digits of every number which means saves time as eac
 
 O(d(n+k)) where K is the greatest number in the digits spot and d is the number of digits. Not sure if I'm right on this.
 
+# bogosort
 
+...
