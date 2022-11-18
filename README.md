@@ -57,7 +57,7 @@ Whoever thought of this is genius.
 
 Just a counting sort on all digits of every number which means saves time as each counting sort only ever has to go up to 9 at max.
 
-O(d(n+k)) where K is the greatest number in the digits spot and d is the number of digits. Not sure if I'm right on this.
+O(nk) in all cases.
 
 # bogosort
 
