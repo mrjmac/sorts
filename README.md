@@ -62,3 +62,7 @@ O(nk) in all cases.
 # bogosort
 
 ...
+
+# bogobogosort
+
+Coming soon...
