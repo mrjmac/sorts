@@ -31,7 +31,7 @@ Very mediocre, O(n) in best case and O(n^2) on the worst and average cases
 
 # insertionsort
 
-Same as bubblesort
+Very mediocre, O(n) in best case and O(n^2) on the worst and average cases
 
 # mergesort
 
