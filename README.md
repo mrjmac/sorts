@@ -37,8 +37,6 @@ Very mediocre, O(n) in best case and O(n^2) on the worst and average cases
 
 While it can be done without recursion, this is much more simple to implement recursively.
 
-Can be hard to grasp at first, but pretty simple once you think about it a bit.
-
 Great time complexity, O(n*log n) in all cases
 
 # countingsort
