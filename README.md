@@ -43,7 +43,7 @@ Great time complexity, O(n*log n) in all cases
 
 Very cool sort. The time complexity is O[n + k], where k is the range of values in the array, in all cases. Might take a minute to wrap your head around it but very cool once you do.
 
-# #quicksort
+## quicksort
 
 Overhyped, honestly not that complicated when you think about it.
 
