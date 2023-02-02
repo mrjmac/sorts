@@ -1,7 +1,7 @@
 # sorts
 A collection of niche number sorting methods
 
-# dropsort
+## dropsort
 A lossy sort whose concept was shamelessly stolen from https://www.dangermouse.net/esoteric/dropsort.html
 
 Drops all numbers that aren't currently in order
@@ -10,7 +10,7 @@ While you could use this for important things I would not recommend doing so
 
 Technically O(n) on all cases
 
-# sleepsort
+## sleepsort
 Concept stolen from somewhere, I don't recall where though
 
 Creates a thread for each number which sleeps for the number
@@ -21,35 +21,35 @@ Does not work for decimals
 
 The time complexity on this is beyond me but it is probably always slower than any practical algorithim
 
-# selectionsort
+## selectionsort
 
 Pretty basic but is O(n^2) in all cases so no real reason to ever use this
 
-# bubblesort
+## bubblesort
 
 Very mediocre, O(n) in best case and O(n^2) on the worst and average cases
 
-# insertionsort
+## insertionsort
 
 Very mediocre, O(n) in best case and O(n^2) on the worst and average cases
 
-# mergesort
+## mergesort
 
 While it can be done without recursion, this is much more simple to implement recursively.
 
 Great time complexity, O(n*log n) in all cases
 
-# countingsort
+## countingsort
 
 Very cool sort. The time complexity is O[n + k], where k is the range of values in the array, in all cases. Might take a minute to wrap your head around it but very cool once you do.
 
-# quicksort
+# #quicksort
 
 Overhyped, honestly not that complicated when you think about it.
 
 O(n^2) worse case and O(n* log n) in the average and best case. A little bit faster than mergesort on average, however if you pick a bad pivot then it will be slower. 
 
-# radixsort
+## radixsort
 
 Whoever thought of this is genius.
 
@@ -57,10 +57,10 @@ Just a counting sort on all digits of every number which means saves time as eac
 
 O(nk) in all cases.
 
-# bogosort
+## bogosort
 
 ...
 
-# bogobogosort
+## bogobogosort
 
 Coming soon...
