@@ -15,7 +15,7 @@ Concept stolen from somewhere, I don't recall where though
 
 Creates a thread for each number which sleeps for the number
 
-Any issues with this are due to the time it takes to create a thread, to fix this change the static divisors. 
+Any issues with this are due to the time it takes to create a thread, to fix this change the static divisors
 
 Does not work for decimals
 
