@@ -45,8 +45,6 @@ Very cool sort. The time complexity is O[n + k], where k is the range of values 
 
 ## quicksort
 
-Overhyped, honestly not that complicated when you think about it.
-
 O(n^2) worse case and O(n* log n) in the average and best case. A little bit faster than mergesort on average, however if you pick a bad pivot then it will be slower. 
 
 ## radixsort
