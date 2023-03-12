@@ -61,4 +61,4 @@ O(nk) in all cases.
 
 ## bogobogosort
 
-Coming soon...
+Somehow significantly worse than the bogosort. Try running this with more than 5 or 6 elements.
