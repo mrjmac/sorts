@@ -1,5 +1,5 @@
 # sorts
-A collection of niche number sorting methods
+A collection of number sorting methods
 
 ## dropsort
 A lossy sort whose concept was shamelessly stolen from https://www.dangermouse.net/esoteric/dropsort.html
