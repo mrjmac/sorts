@@ -2,7 +2,7 @@
 A collection of number sorting methods
 
 ## dropsort
-A lossy sort whose concept was shamelessly stolen from https://www.dangermouse.net/esoteric/dropsort.html
+A lossy sort
 
 Drops all numbers that aren't currently in order
 
