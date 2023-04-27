@@ -41,15 +41,13 @@ Great time complexity, O(n*log n) in all cases
 
 ## countingsort
 
-Very cool sort. The time complexity is O[n + k], where k is the range of values in the array, in all cases. Might take a minute to wrap your head around it but very cool once you do.
+Very cool sort. The time complexity is O[n + k], where k is the range of values in the array, in all cases. \
 
 ## quicksort
 
 O(n^2) worse case and O(n* log n) in the average and best case. A little bit faster than mergesort on average, however if you pick a bad pivot then it will be slower. 
 
 ## radixsort
-
-Whoever thought of this is genius.
 
 Just a counting sort on all digits of every number which means saves time as each counting sort only ever has to go up to 9 at max.
 
