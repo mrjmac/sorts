@@ -11,7 +11,6 @@ While you could use this for important things I would not recommend doing so
 Technically O(n) on all cases
 
 ## sleepsort
-Concept stolen from somewhere, I don't recall where though
 
 Creates a thread for each number which sleeps for the number
 
