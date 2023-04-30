@@ -40,7 +40,7 @@ Great time complexity, O(n*log n) in all cases
 
 ## countingsort
 
-Very cool sort. The time complexity is O[n + k], where k is the range of values in the array, in all cases. \
+Very cool sort. The time complexity is O[n + k], where k is the range of values in the array, in all cases.
 
 ## quicksort
 
