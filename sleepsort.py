@@ -6,10 +6,10 @@ from time import sleep
 def wait(i) :
     # for negative numbers, divide a constant by them in order to make larger(which are in turn lower) numbers print first
     if i < 0 :
-        sleep(.5 / abs(i))
+        sleep(.25 / abs(i))
     # for positive numbers, divide by a constant to decrease time spent waiting
     else :
-        sleep(i / 5)
+        sleep(i / 2)
     # print the number
     print(i)
 
