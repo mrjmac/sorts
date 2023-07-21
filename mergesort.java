@@ -4,13 +4,13 @@ public class mergesort {
     public static void main(String[] args)
     {
         
-        //Read in numbers
+        // Read in numbers
         Scanner read = new Scanner(System.in);
         System.out.print("Enter nums in format x x x x (ex: 1 2 3 4 5) :: ");
         String nums[] = read.nextLine().split(" ");
         System.out.println();
 
-        //convert numbers into an integer arraylist
+        // convert numbers into an integer arraylist
         ArrayList<Integer> sort = new ArrayList<Integer>();
         for (String a : nums)
         {
@@ -18,7 +18,7 @@ public class mergesort {
         }
         System.out.println(sort);
         
-        //perform sort
+        // perform sort
         sort = recursiveMergesort(sort);
 
         System.out.println(sort);

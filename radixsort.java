@@ -5,7 +5,7 @@ public class radixsort {
     public static void main(String[] args) throws IOException
     {
         
-        //Read in numbers
+        // Read in numbers
         BufferedReader r = new BufferedReader(new InputStreamReader(System.in));
         PrintWriter pw = new PrintWriter(System.out);
         System.out.println("Enter nums in format x x x x (ex: 1 2 3 4 5) :: ");
@@ -13,7 +13,7 @@ public class radixsort {
         String[] nums = r.readLine().split(" ");
         int[] sort = new int[nums.length];
 
-        //convert numbers into an integer array
+        // convert numbers into an integer array
         for (int i = 0; i < nums.length; i++)
         {
             sort[i] = (Integer.parseInt(nums[i]));
@@ -21,7 +21,7 @@ public class radixsort {
         System.out.println(Arrays.toString(sort));
         
 
-        //perform sort
+        // perform sort
         sort(sort, sort.length);
 
 
@@ -30,7 +30,7 @@ public class radixsort {
     
     }
 
-    //simple method to swap two items in an array
+    // simple method to swap two items in an array
     public static void swap(int[] a, int spot1, int spot2)
     {
         int temp = a[spot1];

@@ -3,13 +3,13 @@ import java.util.ArrayList;
 public class dropsort {
     public static void main(String[] args)
     {
-        //Read in numbers
+        // Read in numbers
         Scanner read = new Scanner(System.in);
         System.out.print("Enter nums in format x x x x (ex: 1 2 3 4 5) :: ");
         String nums[] = read.nextLine().split(" ");
         System.out.println();
 
-        //convert numbers into an integer arraylist
+        // convert numbers into an integer arraylist
         ArrayList<Integer> numbers = new ArrayList<Integer>();
         for (String a : nums)
         {
@@ -31,7 +31,7 @@ public class dropsort {
             }
         }
 
-        //print results and close scanners
+        // print results and close scanners
         System.out.println(numbers);
         read.close();
     }

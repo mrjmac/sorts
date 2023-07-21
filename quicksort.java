@@ -5,7 +5,7 @@ public class quicksort {
     public static void main(String[] args) throws IOException
     {
         
-        //Read in numbers
+        // Read in numbers
         BufferedReader r = new BufferedReader(new InputStreamReader(System.in));
         PrintWriter pw = new PrintWriter(System.out);
         System.out.println("Enter nums in format x x x x (ex: 1 2 3 4 5) :: ");
@@ -13,7 +13,7 @@ public class quicksort {
         String[] nums = r.readLine().split(" ");
         int[] sort = new int[nums.length];
 
-        //convert numbers into an integer array
+        // convert numbers into an integer array
         
         for (int i = 0; i < nums.length; i++)
         {
@@ -21,7 +21,7 @@ public class quicksort {
         }
         System.out.println(Arrays.toString(sort));
         
-        //perform sort
+        // perform sort
         sort(sort, 0, sort.length - 1);
         pw.println(Arrays.toString(sort));
 
@@ -29,7 +29,7 @@ public class quicksort {
     
     }
 
-    //simple method to swap two items in an array
+    // simple method to swap two items in an array
     public static void swap(int[] a, int spot1, int spot2)
     {
         int temp = a[spot1];
