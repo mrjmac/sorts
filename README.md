@@ -58,4 +58,4 @@ O(nk) in all cases.
 
 ## bogobogosort
 
-Somehow significantly worse than the bogosort. Try running this with more than 5 or 6 elements (it won't finish).
+Somehow significantly worse than the bogosort. Try running this with more than 5 or 6 elements (it won't finish although something is weird with the random method I'm using).
