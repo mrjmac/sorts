@@ -10,7 +10,7 @@ public class mergesort {
         String nums[] = read.nextLine().split(" ");
         System.out.println();
 
-        // convert numbers into an integer arraylist
+        // Convert numbers into an integer arraylist
         ArrayList<Integer> sort = new ArrayList<Integer>();
         for (String a : nums)
         {
